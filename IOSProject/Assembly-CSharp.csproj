@@ -46,6 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Base\ZRMonoSingleton.cs" />
+     <Compile Include="Assets\Scripts\Base\ZRSingleton.cs" />
      <Compile Include="Assets\Scripts\Camera\FollowTarget.cs" />
      <Compile Include="Assets\Scripts\Controller\GameContoller.cs" />
      <Compile Include="Assets\Scripts\Controller\TouchController.cs" />
