@@ -46,10 +46,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Base\IMsgReceiver.cs" />
+     <Compile Include="Assets\Scripts\Base\IMsgSender.cs" />
      <Compile Include="Assets\Scripts\Base\ZRMonoSingleton.cs" />
      <Compile Include="Assets\Scripts\Base\ZRSingleton.cs" />
      <Compile Include="Assets\Scripts\Camera\FollowTarget.cs" />
      <Compile Include="Assets\Scripts\Controller\GameContoller.cs" />
+     <Compile Include="Assets\Scripts\Controller\RoadController.cs" />
      <Compile Include="Assets\Scripts\Controller\TouchController.cs" />
      <Compile Include="Assets\Scripts\Effect\CloudMove.cs" />
      <Compile Include="Assets\Scripts\Effect\MoonRotate.cs" />

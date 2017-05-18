@@ -1,14 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Controller/RoadController.cs">
     <Files>
-      <File FileName="Assets/Scripts/Effect/SunRotate.cs" Line="1" Column="1" />
-      <File FileName="../../Desktop/Survival Shooter/Assets/SurvivalShooter/Scripts/Player/PlayerInfo.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Effect/MoonRotate.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Effect/CloudMove.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Controller/TouchController.cs" Line="86" Column="18" />
       <File FileName="Assets/Scripts/Controller/GameContoller.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Player/Player.cs" Line="72" Column="34" />
+      <File FileName="Assets/Scripts/Controller/RoadController.cs" Line="14" Column="62" />
+      <File FileName="Assets/Scripts/Controller/TouchController.cs" Line="91" Column="55" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

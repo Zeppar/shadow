@@ -88,7 +88,7 @@ public class TouchController : MonoBehaviour {
 			player.DoBlink (Direction.backward);
 		} 
 
-
+//		print ("X : " + player.transform.localPosition.x);
 	}
 
 	public void ChangeTouchType() {

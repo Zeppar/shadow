@@ -13,8 +13,6 @@
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
--r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
--r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll'
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_4_OR_NEWER
 -define:UNITY_5_5_OR_NEWER
@@ -100,10 +98,13 @@
 -define:ENABLE_IOS_ON_DEMAND_RESOURCES
 -define:ENABLE_IOS_APP_SLICING
 -define:UNITY_HAS_GOOGLEVR
+'Assets/Scripts/Base/IMsgReceiver.cs'
+'Assets/Scripts/Base/IMsgSender.cs'
 'Assets/Scripts/Base/ZRMonoSingleton.cs'
 'Assets/Scripts/Base/ZRSingleton.cs'
 'Assets/Scripts/Camera/FollowTarget.cs'
 'Assets/Scripts/Controller/GameContoller.cs'
+'Assets/Scripts/Controller/RoadController.cs'
 'Assets/Scripts/Controller/TouchController.cs'
 'Assets/Scripts/Effect/CloudMove.cs'
 'Assets/Scripts/Effect/MoonRotate.cs'

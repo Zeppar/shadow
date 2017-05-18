@@ -19,6 +19,7 @@ namespace ZRFramework {
 				ConstructorInfo ctor = Array.Find (ctors, c => c.GetParameters ().Length == 0);
 				if (ctor == null)
 					throw new Exception ("Non-public ctor not Found!");
+				
 				instance = ctor.Invoke (null) as T;
 			}
 			return instance;
